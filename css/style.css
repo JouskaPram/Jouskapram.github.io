@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Oxygen&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Heebo:wght@300&family=Oxygen&family=Poppins&display=swap');
+
+body {
+    background-color: #EAEAEA;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand fs-4 {
+    font-family: 'Balsamiq Sans', cursive;
+}
+.img-kategori{
+    width: 50px;
+}
+.row-container{
+    background-color: #fff;
+    margin: 0;
+}
+.judul-kategori{
+    background-color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+}
+.img-kategori:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.judul-produk{
+    background-color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+}
+.text-ss {
+    font-family: 'Balsamiq Sans', cursive;
+}

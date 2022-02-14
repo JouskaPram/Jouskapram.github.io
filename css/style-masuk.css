@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Oxygen&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Heebo:wght@300&family=Oxygen&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 420px;
+    transform: translate(-50%,-50%);
+    box-shadow: 3px 3px 10px;
+    padding: 20px;
+}
+.text-judul{
+    background-color: #fff;
+    text-align: center;
+    
+}
+.cocok {
+    margin-bottom: 70px;
+}
