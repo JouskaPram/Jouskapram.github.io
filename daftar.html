@@ -4,13 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/datar-style.css">
     <title>Daftar</title>
 </head>
 <body>
-  
-    
+  <div class="container">
+    <div class="title">
+      Daftar
+    </div>
+    <form action="masuk.html">
+      <div class="user-details">
+        <div class="input-box">
+          <span class="datails">Nama Lengkap</span>
+          <input type="text" name="" id="" placeholder="Masukan Nama Lengkap" required>
+        </div>
+        <div class="input-box">
+          <span class="datails">Nama</span>
+          <input type="text" name="" id="" placeholder="Masukan Nama" required>
+        </div>
+        <div class="input-box">
+          <span class="datails">Email</span>
+          <input type="email" name="" id="" placeholder="Masukan Email" required>
+        </div>
+        <div class="input-box">
+          <span class="datails">No.hp</span>
+          <input type="number" name="" id="" placeholder="Masukan Nomor HP" required>
+        </div>
+        <div class="input-box">
+          <span class="datails">Password</span>
+          <input type="password" name="" id="" placeholder="Masukan Password" required>
+        </div>
+        <div class="input-box">
+          <span class="datails">Konfirmasi Password</span>
+          <input type="password" name="" id="" placeholder="Masukan Ulang Password" required>
+        </div>
+      </div>
+      <div class="gender-details">
+        <input type="radio" name="gender" id="dot-1">
+        <input type="radio" name="gender" id="dot-2">
+        <input type="radio" name="gender" id="dot-3">
+        <span class="gender-title">Kelamin</span>
+        <div class="category">
+          <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Laki-Laki</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Perempuan</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Custom</span>
+          </label>
+        </div>
+      </div>
+      <div class="button">
+        <input type="submit" value="daftar">
+      </div>
+    </form>
+  </div>
 
 
 <script src="js/bootstrap.js"></script>
